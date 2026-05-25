@@ -9,14 +9,14 @@ import { Upload, FileSpreadsheet, CheckCircle, AlertCircle, X } from 'lucide-rea
 const SEMANA_ACTUAL = 22
 const ANIO_ACTUAL = 2026
 const DEPOSITOS_DEMO = [
-  { id: 'dep-norte', nombre: 'Depósito Norte' },
-  { id: 'dep-sur', nombre: 'Depósito Sur' },
-  { id: 'dep-centro', nombre: 'Depósito Centro' },
-  { id: 'dep-este', nombre: 'Depósito Este' },
-  { id: 'dep-oeste', nombre: 'Depósito Oeste' },
-  { id: 'dep-palermo', nombre: 'Depósito Palermo' },
-  { id: 'dep-avellaneda', nombre: 'Depósito Avellaneda' },
-  { id: 'dep-quilmes', nombre: 'Depósito Quilmes' },
+  { id: 'dep-norte', nombre: 'Depósito Nuevo Centro' },
+  { id: 'dep-sur', nombre: 'Depósito Car One' },
+  { id: 'dep-centro', nombre: 'Depósito Brand Tienda' },
+  { id: 'dep-este', nombre: 'Depósito Brand Punta del Este' },
+  { id: 'dep-oeste', nombre: 'Depósito Tres Cruces' },
+  { id: 'dep-palermo', nombre: 'Depósito Nicatel' },
+  { id: 'dep-avellaneda', nombre: 'Depósito CDM' },
+  { id: 'dep-quilmes', nombre: 'Depósito Web' },
 ]
 
 type Estado = 'idle' | 'parseando' | 'preview' | 'guardando' | 'ok' | 'error'
