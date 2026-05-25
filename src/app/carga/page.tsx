@@ -206,7 +206,7 @@ export default function CargaPage() {
               </div>
               <button
                 onClick={handleGuardar}
-                disabled={estado === 'guardando'}
+                disabled={estado === ('guardando' as Estado)}
                 className="btn-primary w-full flex items-center justify-center gap-2"
               >
                 <Upload size={15} />
